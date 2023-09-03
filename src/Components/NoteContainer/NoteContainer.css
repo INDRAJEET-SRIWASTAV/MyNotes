@@ -1,0 +1,27 @@
+.note-container{
+    height: 100%;
+    width: 100%;
+}
+
+.note-container h2{
+    margin-bottom: 20px;
+    margin-left: 40%;
+    font-size: 50px;
+
+    color: rgb(3, 70, 20);
+
+}
+.note-container-notes{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    overflow: scroll;
+}
+
+.note-container-text{
+    margin-left: 32%;
+    margin-top: 20%;
+    font-size: 60px;
+    color: aquamarine;
+}
